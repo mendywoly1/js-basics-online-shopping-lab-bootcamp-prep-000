@@ -30,7 +30,6 @@ function viewCart() {
     return `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice} and ${getCart()[1].itemName} at $${getCart()[1].itemPrice}.`
   }else if(cart.length > 2) {
     var text = "In your cart, you have "
-<<<<<<< HEAD
     for (var i = 0; i < getCart().length; i++) {
       if (i === getCart().length - 1) {
         text = text + `and ${getCart()[i].itemName} at $${getCart()[i].itemPrice}.`
@@ -38,13 +37,11 @@ function viewCart() {
         text = text + `${getCart()[i].itemName} at $${getCart()[i].itemPrice} `
       } else {
         text = text + `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, `
-=======
     for (var i = 0; i < cart.length; i++) {
       if (i = 0) {
           text = text + `${cart[i].itemName} at $${cart[i].itemPrice},`
       } else {
         text = text + `${cart[i].itemName} at $${cart[i].itemPrice},`
->>>>>>> 6e8854def8e911fe1b678160af001026cf4ecc2e
       }
     }
     return text
