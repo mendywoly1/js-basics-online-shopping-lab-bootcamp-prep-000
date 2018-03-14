@@ -24,11 +24,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
 
-   if(cart.length === 1){
-    return `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice}.`
-  }else if (cart.length === 2) {
-    return `In your cart, you have ${getCart()[0].itemName} at $${getCart()[0].itemPrice} and ${getCart()[1].itemName} at $${getCart()[1].itemPrice}.`
-  }else if(cart.length > 2) {
+    if(cart.length > 2) {
     var text = "In your cart, you have "
     for (var i = 0; i < getCart().length; i++) {
       if (i === getCart().length - 1) {
