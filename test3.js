@@ -75,4 +75,4 @@ function placeOrder(cardNumber) {
 
 addToCart("Apples")
 addToCart("Oranges")
-viewCart(cart)
+viewCart()
