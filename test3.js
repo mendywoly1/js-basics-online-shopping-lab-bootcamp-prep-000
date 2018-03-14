@@ -76,3 +76,4 @@ function placeOrder(cardNumber) {
 addToCart("Apples")
 addToCart("Oranges")
 console.log(cart)
+viewCart()
