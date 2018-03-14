@@ -24,7 +24,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
 
-    if(cart.length > 2) {
+   
     var text = "In your cart, you have "
     for (var i = 0; i < getCart().length; i++) {
       if (i === getCart().length - 1) {
@@ -36,7 +36,7 @@ function viewCart() {
       }
     }
     return text
-  }
+  
 }
 
 function total() {
