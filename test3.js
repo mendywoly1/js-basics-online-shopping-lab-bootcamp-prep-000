@@ -70,7 +70,5 @@ function placeOrder(cardNumber) {
 }
 
 addToCart("Apples")
-addToCart("Oranges")
-addToCart("Mendy")
-addToCart("Itty")
+
 console.log(viewCart())
