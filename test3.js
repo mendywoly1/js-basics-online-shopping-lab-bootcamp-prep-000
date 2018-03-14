@@ -69,5 +69,5 @@ function placeOrder(cardNumber) {
   }
 }
 
-
+addToCart("Apples")
 console.log(viewCart())
