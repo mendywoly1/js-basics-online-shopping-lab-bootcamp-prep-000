@@ -37,11 +37,6 @@ function viewCart() {
         text = text + `${getCart()[i].itemName} at $${getCart()[i].itemPrice} `
       } else {
         text = text + `${getCart()[i].itemName} at $${getCart()[i].itemPrice}, `
-    for (var i = 0; i < cart.length; i++) {
-      if (i = 0) {
-          text = text + `${cart[i].itemName} at $${cart[i].itemPrice},`
-      } else {
-        text = text + `${cart[i].itemName} at $${cart[i].itemPrice},`
       }
     }
     return text
